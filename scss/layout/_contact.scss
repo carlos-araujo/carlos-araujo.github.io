@@ -1,0 +1,53 @@
+.contact-container{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+    font-family: $josefin;
+    text-align: right;
+    width: 100;
+    .map{
+        width: 100%;
+        height: 15em;
+        border: 0;
+        
+    }
+    h1 {
+        font-size: 48px;
+        font-weight: normal;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    address{
+        font-family: $merriwether;
+        font-size: 14px;
+    }
+    .personal-info{
+        text-align: left;
+        //float: none;
+        margin: 0 auto;
+        display: inline-block;
+        padding-bottom: 2em;
+    }
+    
+    .border-button {
+        background: rgba(0, 0, 0, 0);
+        color: black;
+        margin: 5px;
+        border: 2px solid black;
+        padding: 5px 20px;
+    }
+    a{
+        color: inherit;
+    }
+
+    .center-block{
+        float: none !important;
+    }
+
+    .right-half{
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        
+    }
+}

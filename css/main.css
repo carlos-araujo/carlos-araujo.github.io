@@ -1,0 +1,394 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/base\/_reset\.scss}line{font-family:\000031}}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/base\/_reset\.scss}line{font-family:\000036}}
+ul, li {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/base\/_base\.scss}line{font-family:\000031}}
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/base\/_base\.scss}line{font-family:\000037}}
+body {
+  width: 100%;
+  height: 100%;
+  background: #e9e9e9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_footer\.scss}line{font-family:\000031}}
+footer {
+  background: #272727;
+  color: white;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_header2\.scss}line{font-family:\000031}}
+header {
+  width: 100%;
+  height: 100%;
+  background: url("../img/background.png");
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_header2\.scss}line{font-family:\000038}}
+header h1 {
+  font-size: 70px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_header2\.scss}line{font-family:\0000312}}
+header h3 {
+  font-size: 36px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_header2\.scss}line{font-family:\0000316}}
+header #home-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_header2\.scss}line{font-family:\0000321}}
+header a {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_header2\.scss}line{font-family:\0000331}}
+header .white-button {
+  background: white;
+  color: black;
+  border: 2px solid white;
+  padding: 5px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_header2\.scss}line{font-family:\0000337}}
+header .border-button {
+  background: transparent;
+  color: white;
+  margin-left: 10px;
+  border: 2px solid white;
+  padding: 5px 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\000031}}
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\000037}}
+nav {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  width: 100%;
+  height: 10%;
+  background-color: transparent;
+  /*padding-top: 30px;
+  padding-right: 100px;*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\0000316}}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\0000320}}
+nav ul {
+  color: white;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\0000324}}
+nav li {
+  padding: 0 20px 0 20px;
+  color: white;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\0000337}}
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+}
+
+@media only screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\0000344}}
+  nav {
+    padding-top: 0px;
+    padding-right: 0px;
+    height: 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\0000352}}
+  .navbar.navbar-default.navbar-fixed-top,
+  .nav.navbar-nav.navbar-right {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    color: white;
+    width: 100%;
+    height: 0%;
+    padding-top: 0px;
+    padding-right: 0px;
+    height: 5%;
+  }
+
+  /*nav {
+      
+      //position: fixed;
+     
+      background-color: white;
+      color: black;
+  }*/
+}
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\0000375}}
+  .collapsing,
+  .in {
+    background-color: black;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\0000379}}
+  .collapsing ul li a,
+  .in ul li a {
+    color: white !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_nav\.scss}line{font-family:\0000383}}
+  .collapsing ul li a:hover,
+  .in ul li a:hover {
+    color: white !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\000031}}
+.about-container {
+  background: #f1f1f1;
+  width: 100%;
+  padding-top: 12em;
+  padding-bottom: 10em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\000036}}
+.about-container .left-half {
+  background: #f1f1f1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\000038}}
+.about-container .left-half .pic-container {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\0000312}}
+.about-container img {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\0000317}}
+.about-container .right-half {
+  background: #f1f1f1;
+  /*padding-top: 10em;
+  padding-bottom: 8em;*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\0000321}}
+.about-container .right-half .text-container {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\0000324}}
+.about-container .right-half .about-text {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  float: left;
+  width: 100%;
+  color: #3d3d3d;
+  text-align: justify;
+  line-height: 150%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\0000332}}
+.about-container .right-half .about-text h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  color: #272727;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\0000344}}
+  .about-container h1 {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_about\.scss}line{font-family:\0000348}}
+  .about-container .right-half {
+    padding-top: 3em;
+    padding-bottom: 1em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_process2\.scss}line{font-family:\000031}}
+.process-container {
+  padding-top: 8em;
+  padding-bottom: 8em;
+  width: 100%;
+  background: #e0e0e0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_process2\.scss}line{font-family:\000037}}
+.process-container h1 {
+  font-size: 48px;
+  font-weight: normal;
+  font-family: "Josefin Sans", sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_process2\.scss}line{font-family:\0000312}}
+.process-container .container {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_process2\.scss}line{font-family:\0000318}}
+.process-container .row {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_process2\.scss}line{font-family:\0000321}}
+.process-container .process-square {
+  display: inline-block;
+  background: #f1f1f1;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_process2\.scss}line{font-family:\0000336}}
+.process-container .process-square h3 {
+  font-weight: normal;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: #272727;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_process2\.scss}line{font-family:\0000342}}
+.process-container .process-square p {
+  font-weight: normal;
+  font-family: "Merriweather", serif;
+  font-size: 10px;
+  color: #3d3d3d;
+  text-align: justify;
+  text-align-last: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_process2\.scss}line{font-family:\0000351}}
+.process-container .center-block {
+  float: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_process2\.scss}line{font-family:\0000354}}
+.process-container .squares-container {
+  padding-top: 5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_portfolio\.scss}line{font-family:\000031}}
+.portfolio-container {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_portfolio\.scss}line{font-family:\000036}}
+.portfolio-container h1 {
+  font-size: 48px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_portfolio\.scss}line{font-family:\0000312}}
+.portfolio-container a {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_portfolio\.scss}line{font-family:\0000315}}
+.portfolio-container .border-button {
+  background: transparent;
+  color: black;
+  margin: 5px;
+  border: 2px solid black;
+  padding: 5px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_portfolio\.scss}line{font-family:\0000323}}
+.portfolio-container .img-container {
+  margin-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_portfolio\.scss}line{font-family:\0000327}}
+.portfolio-container .img-responsive {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_portfolio\.scss}line{font-family:\0000331}}
+.portfolio-container .pics {
+  padding-top: 4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_contact\.scss}line{font-family:\000031}}
+.contact-container {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: right;
+  width: 100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_contact\.scss}line{font-family:\000038}}
+.contact-container .map {
+  width: 100%;
+  height: 15em;
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_contact\.scss}line{font-family:\0000314}}
+.contact-container h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 1em;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_contact\.scss}line{font-family:\0000320}}
+.contact-container address {
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_contact\.scss}line{font-family:\0000324}}
+.contact-container .personal-info {
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+  padding-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_contact\.scss}line{font-family:\0000332}}
+.contact-container .border-button {
+  background: transparent;
+  color: black;
+  margin: 5px;
+  border: 2px solid black;
+  padding: 5px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_contact\.scss}line{font-family:\0000339}}
+.contact-container a {
+  color: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_contact\.scss}line{font-family:\0000343}}
+.contact-container .center-block {
+  float: none !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/carlosorlando\/Documents\/WEB\%20PROJECTS\/PORTFOLIO\/scss\/layout\/_contact\.scss}line{font-family:\0000347}}
+.contact-container .right-half {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=main.css.map */

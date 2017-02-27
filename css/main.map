@@ -1,0 +1,26 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_nav.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n@import 'layout/_footer.scss';\r\n@import 'layout/_header.scss';\r\n@import 'layout/_nav.scss';\r\n",
+		"$raleway:'Raleway', sans-serif;\r\n$yanone:'Yanone Kaffeesatz', sans-serif;",
+		"",
+		"*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\nul,li{\r\n    list-style: none;\r\n}",
+		"\r\n\r\nbody{\r\n    background: #e9e9e9;\r\n}",
+		"",
+		"",
+		"nav{\r\n    font-family: $raleway;\r\n    font-size: 18px;\r\n    float: right;\r\n    height: 45px;\r\n    background: red;\r\n    width: 100%;\r\n    padding-top: 17px;\r\n\r\n    a{\r\n    color: black; \r\n    text-decoration: none;\r\n    }\r\n\r\n    li{\r\n        float: right;\r\n        padding: 0 20px 0 20px;\r\n    }\r\n}"
+	],
+	"mappings": ";AGAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;CACd;;;AAED,AAAA,EAAE,EAAC,AAAA,EAAE,CAAA;EACD,UAAU,EAAE,IAAK;CACpB;;;ACLD,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,OAAQ;CACvB;;;AGJD,AAAA,GAAG,CAAA;EACC,WAAW,ENDN,SAAS,EAAE,UAAU;EME1B,SAAS,EAAE,IAAK;EAChB,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,IAAK;EACb,UAAU,EAAE,GAAI;EAChB,KAAK,EAAE,IAAK;EACZ,WAAW,EAAE,IAAK;CAWrB;;;AAlBD,AASI,GATD,CASC,CAAC,CAAA;EACD,KAAK,EAAE,KAAM;EACb,eAAe,EAAE,IAAK;CACrB;;;AAZL,AAcI,GAdD,CAcC,EAAE,CAAA;EACE,KAAK,EAAE,KAAM;EACb,OAAO,EAAE,aAAc;CAC1B",
+	"names": []
+}

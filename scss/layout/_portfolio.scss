@@ -1,0 +1,36 @@
+.portfolio-container{
+    text-align: center;
+    font-family: $josefin;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    h1 {
+        font-size: 48px;
+        font-weight: normal;
+        
+        
+    }
+    a{
+        display: inline-block;
+    }
+    .border-button {
+        background: rgba(0, 0, 0, 0);
+        color: black;
+        margin: 5px;
+        border: 2px solid black;
+        padding: 5px 20px;
+    }
+
+    .img-container{
+        //height: 10em;
+        margin-bottom: 2em;
+    }
+    .img-responsive{
+        width: 100%;
+        height: auto;;
+    }
+    .pics{
+        padding-top: 4em;
+    }
+    
+    
+}
